@@ -8,13 +8,13 @@ export class AuthService {
   constructor(private prisma : PrismaService){}
   signin() {
     return {
-      message: 'Response from signin',
+      message: 'Sign In',
     };
   }
   signup(@Req() req : Request) {
     console.log(req);
     return {
-      message: 'Hello guys',
+      message: 'Sign Up',
     };
   }
 }
