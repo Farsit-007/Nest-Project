@@ -8,7 +8,7 @@ export class AuthService {
   constructor(private prisma : PrismaService){}
   signin() {
     return {
-      message: 'Sign IN',
+      message: 'Sign In',
     };
   }
   signup(@Req() req : Request) {
@@ -18,3 +18,6 @@ export class AuthService {
     };
   }
 }
+
+
+w
